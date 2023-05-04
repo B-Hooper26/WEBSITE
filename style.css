@@ -4,11 +4,17 @@
 
 .nav-link{
     color: white;
+    float: left;
+     
 }
 #title{
     color: darkgreen;
     font-style: italic;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: xx-large;
 }
+
+
+
+
 

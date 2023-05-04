@@ -1,0 +1,14 @@
+#homepage{
+    background-color: black;
+}
+
+.nav-link{
+    color: white;
+}
+#title{
+    color: darkgreen;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+}
+

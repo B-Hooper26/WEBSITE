@@ -1,18 +1,55 @@
 #homepage{
     background-color: black;
 }
-
+.body{
+    background-color: black;
+}
+#nav-content{
+    text-align: end;
+}
 .nav-link{
     color: white;
-    float: left;
-     
+}
+#navbarNav{
+    font-size: medium;
+    text-align: right;
+}
+
+a{
+    text-align: center;
+}
+.nav-link:hover{
+    color: darkgreen;
+    font-weight: bolder;
+    
+}
+ul{
+    font-family: 'Castoro Titling';
+    font-size: large;
+    
+    
 }
 #title{
     color: darkgreen;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: xx-large;
+    font-size: 3.25vw;
+    font-family: 'Castoro Titling';
+    
+
 }
+#image{
+    border: 0.5px solid darkblue;
+    border-radius: 4px;
+    width: 125px;
+    opacity: 50%;
+}
+
+.nav{
+    border-bottom-style: solid;
+    border-color: darkgreen;
+    
+
+}
+
 
 
 

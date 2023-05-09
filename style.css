@@ -1,9 +1,10 @@
 #homepage{
-    background-color: black;
+    background-image: url('Images/background.png');
+    border-left: 10px solid darkgreen;
+    border-right: 10px solid darkgreen;
+    line-height: 1.5;
 }
-.body{
-    background-color: black;
-}
+/*MAIN PAGE*/
 #nav-content{
     text-align: end;
 }
@@ -14,7 +15,37 @@
     font-size: medium;
     text-align: right;
 }
+#homeburger{
+    width: 100%;
+    max-width: 400px;
+    height:fit-content;
+    border-radius: 4px;
+    filter: drop-shadow(0 0 0.75rem rgb(7, 255, 40));
+}
+#bookinglink{
+    color: white;
+    font-weight: bold;
 
+}
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background: white;
+ }
+#maincard{
+    padding-top: 3rem;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Castoro Titling';
+    color: white;
+}
 a{
     text-align: center;
 }
@@ -42,13 +73,15 @@ ul{
     width: 125px;
     opacity: 50%;
 }
-
-.nav{
-    border-bottom-style: solid;
-    border-color: darkgreen;
-    
-
+/*ABOUT US*/
+#aboutheading{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Castoro Titling';
+    text-align: center;
 }
+
+
 
 
 

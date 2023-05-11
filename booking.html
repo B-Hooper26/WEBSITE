@@ -1,17 +1,88 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Bookings</title>
+    <title>Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    
 
+  
+</head>
+  <body id="homepage">
+    <!--IMPORTING GOOGLE FONT-->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat:wght@500&family=Permanent+Marker&display=swap');
+    </style>
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/css/smart-forms.css">
+    <link rel="stylesheet" href="path/to/css/font-awesome.min.css">	   
+    <!--NAVBAR-->
+
+
+    <nav id="nav"class="navbar fixed-top-pull-left navbar-expand-lg" style="background-image: url('Images/background.png');" >
+      <div class="container-fluid">
+        <a id="title" class="navbar-brand" href="#">THE BRITANNIA INN </a>
+        <img id="image" src="Images/Flag-United-Kingdom.webp">
+        <!--BUTTON FOR MOBILE VIEW-->
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav" >
+          <ul id="nav-content" class="navbar-nav">
+              <a class="nav-link" href="home.html" >|Home|</a>
+              <a class="nav-link" href="about.html">|About Us|</a>
+              <a class="nav-link" href="booking.html" style="opacity: 50%;">|Booking|</a>
+              <a class="nav-link" href="menu.html">|Menu|</a>
+              <a class="nav-link" href="contact.html">|Contact US|</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 id="bookingtitle"> BOOKINGS</h1>
+    <p id="bookingdetails">Here at the britannia inn, we offer both food services and over night stay.<br> Reservations for tables must be reserved 2 weeks before hand and if any cancellations are due, please contact us.<br>Over night stays are £50 per night- brekafast is not included.</p>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-6 mb-4">
+              <div class="card">
+                  <img class="card-img-top" src="Images/hotelroom.jpg" alt="">
+
+                  <div class="card-body" id="bookingcard">
+                      <h5 class="card-title" style="font-size: 2rem; text-align: center;">Hotel Booking</h5>
+                      <p class="card-text" style="text-align: center;">
+                        To make a hotel booking
+                        please click the button 
+                        below
+                      </p>
+                      <a href="hotelroom.html" style="background-color: transparent; align-items: center;" class="btn btn-outline-secondary btn-sm">Click Here</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+              <div class="card">
+                  <img class="card-img-top" src="Images/restraunt.png" alt="">
+
+                  <div class="card-body" id="bookingcard">
+                      <h5 class="card-title" style="font-size: 2.2rem; text-align: center;">Table Reservations</h5>
+                      <p class="card-text">
+                        To make a table reservation,
+                        please click the button 
+                        below!        
+                      </p>
+                      <a href="table.html" style="background-color: transparent; align-items: center;" class="btn btn-outline-secondary btn-sm">Click Here</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
@@ -20,7 +91,13 @@
 
 
     
+
+
+
+ 
+    
     <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 
 
@@ -28,5 +105,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <footer id="footer">  
+      @Copyright Ben Hooper 2023- All Right Reserved.   
+    </footer>  
   </body>
+  
 </html>

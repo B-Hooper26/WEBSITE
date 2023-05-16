@@ -5,7 +5,14 @@
     line-height: 1.5;
 }
 
-
+#fontsizebtn{
+  color: white;
+  width: 250px;
+  height: 35px;
+  font-family: 'Castoro Titling';
+  background-color: black;
+  font-style: italic;
+}
 button{
     cursor: pointer;
 }
@@ -234,10 +241,10 @@ textarea.input {
 
 .btn {
   padding: 0.6rem 1.3rem;
-  background-color: #fff;
-  border: 2px solid #fafafa;
+  background-color: #ffffff;
+  border: 2px solid #ff0000;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #1dbc1a;
   line-height: 1;
   border-radius: 25px;
   outline: none;
